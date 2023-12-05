@@ -3,7 +3,7 @@
 
 Question 1: detailed information on our analysis 
 
-**Introduction**
+### Introduction
 
 We are exploring how the growth rate of a bacterial population changes over time, looking mainly at initial population size (N) and carrying capacity (K) of populations modelled using logistic growth models
 
@@ -12,8 +12,7 @@ We are exploring how the growth rate of a bacterial population changes over time
 
 We are using a differential equation which represents the rate the population size changes as a function of the current population size multipled by the growth rate. The growth rate is scaled accounting for the size of the population with respect for the carring capacity limits it has.
 
-
-**Analysis**
+### Analysis
 
 I conducted my analysis on data collected in experiment 1.
 
@@ -21,15 +20,15 @@ I conducted my analysis on data collected in experiment 1.
 
 2. We generated two linear models
 
-- Model 1: finding N. In this model we set t<1000 to find the intercept of the line, which corresponds to the initial population size (N). In this model K is much greater than N therefore, we expect exponential population growth in this period. 
+- **Model 1**: finding N. In this model we set t<1000 to find the intercept of the line, which corresponds to the initial population size (N). In this model K is much greater than N therefore, we expect exponential population growth in this period. 
 
-- Model 2: finding K. In this model we set t>3000 (where the graph is constant). This causes the size of the population to be equal to the constant number (carrying capacity)
+- **Model 2**: finding K. In this model we set t>3000 (where the graph is constant). This causes the size of the population to be equal to the constant number (carrying capacity)
 
 3. Finally, we can generate a logistic model to estimate the values for N0, r (growth rate) and K for our data set (experiment 1)
 
 
 
-**Results**
+### Results
 
 Employing this analysis on the data from experiment 1 produced estimates for N, K and r
 
