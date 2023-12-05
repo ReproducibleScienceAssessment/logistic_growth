@@ -12,9 +12,6 @@ logistic_fun <- function(t) {
   
 }
 
-exp_fun<-function(t){ N<- N0exp(rt) }
-
-exp <- 
 
 N0 <- 972.6 #estimate of the intercept e^(6.883)
   
