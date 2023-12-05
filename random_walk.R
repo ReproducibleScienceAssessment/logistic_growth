@@ -14,7 +14,6 @@ random_walk  <- function (n_steps) {
   
   for (i in 2:n_steps) {
     
-    
     h <- 0.25
     
     angle <- runif(1, min = 0, max = 2*pi)
@@ -26,9 +25,7 @@ random_walk  <- function (n_steps) {
     df[i,3] <- i
     
   }
-  
   return(df)
-  
 }
 
 data1 <- random_walk(500)
