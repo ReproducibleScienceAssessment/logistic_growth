@@ -53,8 +53,9 @@ This gives N as 5.04x10^(24)
 
 This is different from the the population size predicted under logistic growth which is K (6x10^(10)). This is because in the exponential model there is no limit to population size therefore, it can continue to increase (assuming endless resources). The logistic model assumes growth rate scaled using the current population in relation to the carrying capacity, meaning that it cannot increase above K 
 
+## Question 3: generate a graph comparing the exponential and logistic growth curves
 
-
+![image](https://github.com/skystewartroberts/logistic_growth/assets/150151519/96701285-e2da-4831-b706-fa626e80f28e)
 
 
 
