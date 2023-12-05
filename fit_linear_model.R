@@ -20,4 +20,5 @@ data_subset2 <- growth_data %>% filter(t>3000)
 model2 <- lm(N ~ 1, data_subset2)
 summary(model2)
 
-#we can see that the 6x10^10 will be the maximum and therefore K 
+#we can see that the 6x10^10 will be the maximum and therefore K
+
