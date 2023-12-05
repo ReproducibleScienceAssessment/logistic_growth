@@ -7,7 +7,6 @@ logistic_fun <- function(t) {
   N <- (N0*K*exp(r*t))/(K-N0+N0*exp(r*t))
   
   return(N)
-  
 }
 
 N0 <- 972.6 #estimate of the intercept e^(6.883)
