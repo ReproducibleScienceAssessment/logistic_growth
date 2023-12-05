@@ -26,7 +26,6 @@ logistic <- logistic_fun(4980)
 exp
 logistic
 
-
 ggplot(aes(t,N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +

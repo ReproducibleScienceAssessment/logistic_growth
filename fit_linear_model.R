@@ -11,7 +11,7 @@ data_subset1 <- growth_data %>% filter(t<1000) %>% mutate(N_log = log(N))
 model1 <- lm(N_log ~ t, data_subset1)
 summary(model1)
 
-#we can see that N is 7 at t=0 as that is the intercept 
+#we can see that N is 7 at t=0 as that is the intercept from model 1
 
 #Case 2. N(t) = K
 

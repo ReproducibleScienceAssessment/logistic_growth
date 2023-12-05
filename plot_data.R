@@ -10,7 +10,7 @@ library(ggplot2)
 
 ggplot(aes(t,N), data = growth_data ) +
   geom_point() +
-  ylab("Number of cells") +
+  ylab("Number of cells")+
   xlab("Time") +
   theme_bw()
 

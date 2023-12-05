@@ -22,7 +22,7 @@ r <- 1.004e-02 #rate of growth found using gradient
   
 K <- 6.000e+10 #carrying capacity found looking at linear model 2 intercept 
 
-#when we plot this model we can see the red line showing the model
+#when we plot this model we see the red line showing the model
 #if the last part of code is added it log transforms the y axis 
 #so it becomes linear 
 
