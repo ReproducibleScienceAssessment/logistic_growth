@@ -29,12 +29,26 @@ logistic <- logistic_fun(4980)
 exp
 logistic
 
+#plotting the functions on a graph 
 
 ggplot(aes(t,N), data = growth_data) +
   
-  geom_function(fun=logistic_fun, colour="red") +
-  geom_function(fun=exp_fun, colour="blue")+
-  scale_y_continuous(limits=c(0, 6.5e+10))
+  geom_function(fun=logistic_fun, aes(colour="Logistic")) +
+  geom_function(fun=exp_fun, aes(colour="Exponential"))+
+  scale_y_continuous(limits=c(0, 6.5e+10))+
+  labs(
+    y = "log (Number of cells)",
+    x="Time",
+    title = "Comparing Exponential and Logistic Function"
+  )+
+  scale_color_manual(name='Regression Model',
+                     breaks=c('Logistic', 'Exponential'),
+                     values=c('Logistic'='pink', 'Exponential'='blue'))+
+  theme_grey()+
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(hjust = 0.5)
+    )
 
 
 
