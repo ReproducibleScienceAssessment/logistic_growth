@@ -32,8 +32,10 @@ I conducted my analysis on data collected in experiment 1.
 
 Employing this analysis on the data from experiment 1 produced estimates for N, K and r
 
-N0 = 972.6
+N0 = 975.5
+
 r = 1.004x10^(-2)
+
 K = 6.000x10^(10)
 
 This indicates that the original population of bacteria included 973 individuals (rounded) with a growth rate of 0.01004. This population will likely reach a carrying capacity of 60000000000 individuals 
@@ -47,7 +49,7 @@ exp_fun<-function(t){
   N<- N0*exp(r*t)
 }
 
-This gives N as 5.04x10^(24)
+This gives N as 5.05x10^(24)
 
 **How does it compare to the population size predicted under logistic growth?**
 
