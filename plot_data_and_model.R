@@ -1,4 +1,6 @@
 #Script to plot data and model
+install.packages("ggplot2")
+library(ggplot2)
 
 growth_data <- read.csv("experiment 1.csv")
 
@@ -13,7 +15,7 @@ logistic_fun <- function(t) {
 }
 
 
-N0 <- 972.6 #estimate of the intercept e^(6.883)
+N0 <- 975.5 #estimate of the intercept e^(6.883)
   
 r <- 1.004e-02 #rate of growth found using gradient
   
