@@ -1,3 +1,6 @@
+install.packages("ggplot2")
+library(ggplot2)
+
 growth_data <- read.csv("experiment 1.csv")
 
 #this function gives us the logistic growth model for this data 
