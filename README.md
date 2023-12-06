@@ -59,10 +59,10 @@ This is different from the the population size predicted under logistic growth w
 
 ## Question 3: generate a graph comparing the exponential and logistic growth curves
 
-![image](https://github.com/skystewartroberts/logistic_growth/assets/150151519/96701285-e2da-4831-b706-fa626e80f28e)
 
+![comparing_functions_graph ](https://github.com/ReproducibleScienceAssessment/logistic_growth/assets/150151519/0bdf2571-b163-4a6a-9bf2-53ca8c274620)
 
-
+This is a graphical representation of the different functions used to model the growth of the bacterial population.
 
 
 
