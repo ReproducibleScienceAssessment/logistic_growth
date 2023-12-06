@@ -46,7 +46,9 @@ This indicates that the original population of bacteria included 973 individuals
 Using a model for exponential growth we can calculate the population size at t=4980:
 
 exp_fun<-function(t){
+
   N<- N0*exp(r*t)
+  
 }
 
 This gives N as 5.05x10^(24)
